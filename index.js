@@ -1,5 +1,4 @@
 module.exports = bundler => {
-  console.log("handy mandy");
   bundler.addAssetType(
     "hbs",
     require.resolve("parcel-bundler/src/assets/HTMLAsset")
