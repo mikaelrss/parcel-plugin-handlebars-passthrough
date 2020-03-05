@@ -1,6 +1,6 @@
 {
   "name": "parcel-plugin-handlebars-passthrough",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A plugin for bundling handlebars files without chonging values during build time",
   "main": "index.js",
   "author": "Mikael Solstad",
