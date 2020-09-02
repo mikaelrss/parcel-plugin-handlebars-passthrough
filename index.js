@@ -1,10 +1,4 @@
-module.exports = bundler => {
-  bundler.addAssetType(
-    "hbs",
-    require.resolve("parcel-bundler/src/assets/HTMLAsset")
-  );
-  bundler.addAssetType(
-    "handlebars",
-    require.resolve("parcel-bundler/src/assets/HTMLAsset")
-  );
+module.exports = (bundler) => {
+  bundler.addAssetType("hbs", require.resolve("./src/HbsAsset"));
+  bundler.addAssetType("handlebars", require.resolve("./src/HbsAsset"));
 };
