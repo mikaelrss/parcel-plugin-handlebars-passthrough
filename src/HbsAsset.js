@@ -1,7 +1,7 @@
 const HTMLAsset = require("parcel-bundler/lib/assets/HTMLAsset");
 
 const handlebarsExpression = (path) => {
-  return /^{{.+?}}$/.test(path);
+  return /{{.+?}}/.test(path);
 };
 
 class HbsAsset extends HTMLAsset {
