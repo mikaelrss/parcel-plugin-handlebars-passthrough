@@ -6,7 +6,7 @@ const handlebarsExpression = (path) => {
 
 class HbsAsset extends HTMLAsset {
   addDependency(name, options) {
-    if (!handlebarsExpression(opts.resolved))
+    if (!handlebarsExpression(options.resolved))
       return super.addDependency(name, options);
   }
 
